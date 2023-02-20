@@ -37,7 +37,7 @@ function Slide() {
                     data-aos-offset="300"
                 >
                     <div
-                        id="carouselIndicators"
+                        id="slide-carousel-indicators"
                         className="carousel slide"
                         data-interval="2000"
                         data-ride="carousel"
