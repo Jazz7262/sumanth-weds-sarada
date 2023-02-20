@@ -44,32 +44,32 @@ function Slide() {
                     >
                         <ol className="carousel-indicators">
                             <li
-                                data-target="#carouselIndicators"
+                                data-target="#slide-carousel-indicators"
                                 data-slide-to="0"
                                 className="active"
                             ></li>
                             <li
-                                data-target="#carouselIndicators"
+                                data-target="#slide-carousel-indicators"
                                 data-slide-to="1"
                             ></li>
                             <li
-                                data-target="#carouselIndicators"
+                                data-target="#slide-carousel-indicators"
                                 data-slide-to="2"
                             ></li>
                             {/*     <li
-                                    data-target="#carouselIndicators"
+                                    data-target="#slide-carousel-indicators"
                                     data-slide-to="3"
                                 ></li>
                                 <li
-                                    data-target="#carouselIndicators"
+                                    data-target="#slide-carousel-indicators"
                                     data-slide-to="4"
                                 ></li>
                                 <li
-                                    data-target="#carouselIndicators"
+                                    data-target="#slide-carousel-indicators"
                                     data-slide-to="5"
                                 ></li>
                                 <li
-                                    data-target="#carouselIndicators"
+                                    data-target="#slide-carousel-indicators"
                                     data-slide-to="6"
                                 ></li> */}
                         </ol>
@@ -104,7 +104,7 @@ function Slide() {
                         </div>
                         <a
                             className="carousel-control-prev"
-                            href="#carouselIndicators"
+                            href="#slide-carousel-indicators"
                             role="button"
                             data-slide="prev"
                         >
@@ -116,7 +116,7 @@ function Slide() {
                         </a>
                         <a
                             className="carousel-control-next"
-                            href="#carouselIndicators"
+                            href="#slide-carousel-indicators"
                             role="button"
                             data-slide="next"
                         >
